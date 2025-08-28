@@ -23,6 +23,7 @@ sudo fc-cache -f
 
 # Ubuntu GUI Desktop Installation
 sudo DEBIAN_FRONTEND=noninteractive apt -yq install ubuntu-gnome-desktop
+# sudo DEBIAN_FRONTEND=noninteractive apt -yq install cinnamon-desktop-environment
 
 # For remote desktop access to system via Remote Desktop. Ideally, you need to build an SSH tunnel for this.
 # The terminal software Putty is very suitable for this.
